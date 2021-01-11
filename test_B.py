@@ -4,7 +4,7 @@ from B import B
 a = B(4)
 b = B(5)
 c = B(6)
-class TestA(unittest.TestCase):
+class TestB(unittest.TestCase):
     def test_one(self):
         res = a.one()
         self.assertEqual(res, 4)
