@@ -24,3 +24,13 @@ class TestA(unittest.TestCase):
 
         res = c.two()
         self.assertEqual(res, "b")
+
+    def test_three(self):
+        res = a.three()
+        self.assertEqual(res, 12)
+
+        res = b.three()
+        self.assertEqual(res, 15)
+
+        res = c.three()
+        self.assertEqual(res, "c")

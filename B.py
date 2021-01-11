@@ -15,3 +15,10 @@ class B(A):
         else:
             result = "error"
         return result
+
+    def three(self):
+        if type(self.number) == int or type(self.number) == float:
+            result = self.number * 3
+        else:
+            result = "error"
+        return result
